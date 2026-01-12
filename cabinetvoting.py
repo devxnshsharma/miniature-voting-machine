@@ -3,7 +3,7 @@ houselist=['Ekta','Pragati','Shakti','Shanti']
 
 try:
     db= pymysql.connect(host ="localhost", user="root",
-                    passwd="Devansh@363", port=3306)
+                    passwd="XXXXX", port=3306)
     c=db.cursor()
     #create a database 
     print("Welcome to TIS, VV Voting portal")
