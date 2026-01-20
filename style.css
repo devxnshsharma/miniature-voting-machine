@@ -1,0 +1,98 @@
+body{
+    background-color: lightcyan;
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+header{
+    background-color: rgb(0, 128, 255);
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+}
+hr{
+    margin: 0;
+    border: 0;
+    height: 2px;
+    background-color: black;
+}
+footer{
+    background-color: rgb(0, 128, 255);
+    color: azure;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0;
+    font-size: 0.9em;
+}
+nav{
+    text-align: center;
+    background-color:azure;
+    padding: 5px;
+}
+nav a{
+     color: navy;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0 10px;
+}
+nav a:hover{
+text-decoration: underline;
+color: coral;
+}
+main{
+    color:darkblue;
+    line-height: 1.5;
+}
+p{
+    color: crimson;
+    padding: 0px;
+    line-height: 1.5;
+    font: optional;
+}
+main p, main ol, main ul {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2{
+    padding: 10px;
+    color: lightgoldenrodyellow;
+    background-color: darkblue;
+    margin-top: 0;
+
+}
+ol {
+    font-weight: bold;
+    color: darkblue;
+    margin-left: 20px; /* Adds extra indentation for the numbers */
+}
+
+ul {
+    font-weight: normal; 
+    color: darkslateblue;
+    margin-bottom: 10px;
+}
+.list-square { list-style-type: square; }
+.list-disc { list-style-type: disc; }
+.list-circle { list-style-type: circle; }
+
+footer h5 {
+    margin: 0; 
+}
+img{
+    align-items: center;
+}
+.cont{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.a{
+    height: 40%;
+    width: 40%;
+}
+.b{
+    padding: 2px;
+    height: 100%;
+    width: 47%;
+}
